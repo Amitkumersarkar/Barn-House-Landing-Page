@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <title>Your Dream Home</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font family -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <!-- tailwind css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'barn-house-primary': '#FFF',
+                        'barn-house-bg': '#494949',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-manrope bg-violet-100 h-svh">
+    <!-- header section -->
+    <header>
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start p-0 py-3">
+                    <a href="#">
+                        <h1 class="font-extrabold text-lg"><i
+                                class="fa-solid fa-circle-arrow-right -rotate-45 text-green-500"></i> Rinterio</h1>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-lg font-medium ">
+                        <li>
+                            <ac class="hover:bg-green-400 transition-colors duration-300 ease-in-out"><span
+                                    class="font-bold">Home</span></a>
+                        </li>
+                        <li>
+                            <ac class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Everything</a>
+                        </li>
+                        <li>
+                            <ac class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Groceries</a>
+                        </li>
+                        <li>
+                            <ac class="hover:bg-green-400 transition-colors duration-300 ease-in-out">About</a>
+                        </li>
+                        <li>
+                            <ac class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="flex items-center gap-5 font-semibold text-lg">
+                        <button>
+                            <div>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="fa-solid fa-cart-shopping pl-5"></i>
+                            </div>
+                        </button>
+                        <button class="text-black bg-green-400 rounded-2xl py-1 px-2">
+                            <h1>Book Consult <i class="fa-solid fa-circle-arrow-right -rotate-45"></i></h1>
+                        </button>
+
+                    </div>
+                    <!-- <a class="btn bg-green-400 ml-2">Button</a> -->
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium -right-0 gap-2">
+                            <li>
+                                <a class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Home</a>
+                            </li>
+                            <li>
+                                <a class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Everything</a>
+                            </li>
+                            <li>
+                                <a class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Groceries</a>
+                            </li>
+                            <li>
+                                <a class="hover:bg-green-400 transition-colors duration-300 ease-in-out">About</a>
+                            </li>
+                            <li>
+                                <a class="hover:bg-green-400 transition-colors duration-300 ease-in-out">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
